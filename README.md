@@ -1,4 +1,4 @@
-# DevOps-100days
+# DevOps-90days
 
 I am following saiyam's roadmap, so it will take around 6 months, but i plan on splitting it in two sprints. 90 days + 90 days.
 Topics:
