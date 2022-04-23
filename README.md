@@ -1,6 +1,6 @@
 # DevOps-100days
 
-I am following saiyam's roadmap, so it will take around 6 months, but i plan on splitting it in two sprints. 100days + 80 days.
+I am following saiyam's roadmap, so it will take around 6 months, but i plan on splitting it in two sprints. 90 days + 90 days.
 Topics:
 - prerequisites:
   - Linux
