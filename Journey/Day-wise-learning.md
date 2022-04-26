@@ -1,4 +1,4 @@
-# 100 days of DevOps !:
+# 90 days of DevOps !:
 
 ### Day 1:
 - Networking:
