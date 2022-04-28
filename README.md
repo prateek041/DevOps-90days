@@ -21,8 +21,10 @@ Since i will be switching between resources, i dont have a fully defined plan, i
 
 ## Linux:
 - I plan on doing 3 sessions on it per week (monday, wednesday and friday). with the deadline being 2nd july.
-- I am following edX course LFS101x.
-- I do read articles about things i dont clearly understand.
+- I am following edX course LFS101x till chapter 3.
+- seperately understood basic concepts like processes, linux filesystem etc. [link](https://tldp.org/LDP/tlk/tlk-toc.html).
+- for linux commands and on hand practice, studied from kunal's linux video. [link](https://www.youtube.com/watch?v=iwolPf6kN-k&t=1285s).
+- Stopped here for now, will do advanced topics later on, when needed.
 
 ## Networking:
 - Following the CCNA course by network kings and kunal kushwaha's networking video.
