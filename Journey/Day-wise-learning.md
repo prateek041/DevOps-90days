@@ -35,3 +35,8 @@
   - Resources used: [CCNA Course](https://www.youtube.com/watch?v=rv3QK2UquxM&t=0s).
   - My notes: [CCNA day-4 pdf](https://github.com/prateek041/DevOps-90days/blob/main/resources/Networking/CCNA-day-4.pdf).
   - Attended questions from: [questions link](https://dce.telkomuniversity.ac.id/wp-content/uploads/2014/09/49445184-IP-Addressing-and-Subnetting-Workbook-Instructors-Version-1-5.pdf).
+
+### Day 8:
+- Docker:
+  - Resources used: [Docker](https://www.youtube.com/watch?v=buHPsFgpsgU).
+  - My notes: [Docker-notes](https://github.com/prateek041/DevOps-90days/blob/main/resources/Docker/Docker-day-1.pdf). 
