@@ -39,11 +39,16 @@ Since I will be switching between resources, I dont have a fully defined plan, I
 - For clear understanding of how containers work, their architecture and their creation using linux concepts like Namespaces, Cgroups and many more, I used saiyam pathak's Docker deep dive video.[Docker deep dive session](https://www.youtube.com/watch?v=buHPsFgpsgU).
 - Creating containers from scratch. This part is not mandatory, but yes it sure clears the picture about containers by building it. I seperately read about concepts like Chroot, Linux Namespaces, Cgroups etc for clear understanding of how contianers are created [Kernel namespaces and cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504), [Creating containers from scratch-Docker docs](https://youtu.be/8fi7uSYlOdc). Docker docs has everything you need regarding this.[Docker docs](https://docs.docker.com/get-started/).
 - I already did kunal's video and building containers from scratch before the challenge, it should take you around a week. This part is very important! invest your time on this.
+- ## YAML:
+- 1 day.
+- Learnt from Kunal Kushwaha's YAML course for beginners [YAML for beginners by kunal Kushwaha](https://www.youtube.com/watch?v=IA90BTozdow&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=5).
 
 ## Cloud (Azure):
 - 3 days per week (tuesday, thursday and saturday).
+- AZ-900 on freeCodeCamp youtube channel [AZ-900](https://www.youtube.com/watch?v=NKEFWyqJ5XA&list=WL&index=132&t=12s).
 
 ## Kubernetes:
 - 3 days per week (monday, wednesday and friday).
+- Kubernetes course for beginner by Kunal Kushwaha [Kubernetes for beginners by Kunal](https://www.youtube.com/watch?v=KVBON1lA9N8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=7).
 
 will update more because i have to manage college as well !
