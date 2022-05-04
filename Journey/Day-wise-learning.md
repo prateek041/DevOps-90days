@@ -40,3 +40,18 @@
 - Docker:
   - Resources used: [Docker](https://www.youtube.com/watch?v=buHPsFgpsgU).
   - My notes: [Docker-notes](https://github.com/prateek041/DevOps-90days/blob/main/resources/Docker/Docker-day-1.pdf). 
+
+### Day 9:
+- YAML:
+  - Resources used: [Complete YAML course by Kunal kushwwaha](https://www.youtube.com/watch?v=IA90BTozdow&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=6&t=267s)
+  - Notes: [from kunal's DevOps repository](https://github.com/kunal-kushwaha/DevOps-Bootcamp/tree/main/YAML).
+
+### Day 10:
+- Cloud (Azure):
+  - Resources used: [AZ-900 freecodecamp course](https://www.youtube.com/watch?v=NKEFWyqJ5XA&list=WL&index=133&t=12s);
+  - My notes: [AZ-900 day-1](https://github.com/prateek041/DevOps-90days/blob/main/resources/Cloud(Azure)/AZ-900-day-1.md).
+
+### Day 11:
+- Kubernetes:
+  - Resources used: [Kunal's Kubernetes video](https://www.youtube.com/watch?v=KVBON1lA9N8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=7).
+  - My notes: [waiting]().
