@@ -1,6 +1,6 @@
 # Kubernetes Architecture
 
-![Kubernetes-Architecture](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Kubernetes-Architecture.png)
+![Kubernetes-Architecture](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-1-Kubernetes-concepts(Civo)/Kubernetes-Architecture.png)
 
 ## What happens here ?
 
