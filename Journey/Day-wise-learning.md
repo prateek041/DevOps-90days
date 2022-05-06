@@ -55,3 +55,8 @@
 - Kubernetes:
   - Resources used: [Kunal's Kubernetes video](https://www.youtube.com/watch?v=KVBON1lA9N8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=7).
   - My notes: [waiting]().
+
+### Day 12:
+- Kubernetes:
+  - Resource used: [Civo academy](https://www.civo.com/account/academy).
+  - my notes: [notes](https://github.com/prateek041/DevOps-90days/tree/main/resources/Kubernetes/Day-1-Kubernetes-concepts(Civo)).
