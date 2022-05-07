@@ -28,3 +28,34 @@
 
 # Pods lifecycle:
 
+What happens when you run `kubectl create -f "yaml file"`.
+
+![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/pods-lifecycle.png)
+
+1. YAML file is converted to JSON file and sent to the API server.
+2. Authentication using kubeconfig credentials.
+3. when authenticated, authorization is done to check wether the user is authorized to execute that command.
+4. when authorized, the data is sent to ETCD and persisted.
+5. [STATE] **Pending**:
+    - *Schedular* finds the best suited node, depending on various factors like resources etc.
+    - When found, it will fill the label spec-mode-name and send it back to the API server.
+    - This request is then stored in ETCD again.
+    - *API server* then tells the decided kubelet to spin the container on the particular node.
+    - *Kubelet* then fetches the image and other requirements using CRI. CNI gets the IP address to the pod.
+    - that IP address is sent back to the API server and it's data is persisted in ETCD.
+6. [STATE] **Container creating**:
+    - Image is pulled and the container is created with the help *containerd* and *runc*.
+7. [STATE] **Running state**:
+    - The container starts running.
+8. [STATE] **crashloopbackoff** and **succeded** state:
+    - When the process dies too many times in the pod, it goes to crashloopbackoff.
+    - when the process is successfull, it goes to Succeded state.
+
+### Hooks:
+1. Post-start-hook:
+    - When you want some actions to be performed before the required container is started.
+2. Pre-stop-hook:
+    - When you want some actions to be performed before the container gets terminated.
+
+### Init container:
+It will run before starting the main container.
