@@ -15,3 +15,5 @@
 - The above command will add the label to the object pod.
 
 Couldnt understand what was ahead, will look for other resources, or maybe things will be explained better later on !
+
+I think it is something like CSS selectors, that select the objects with the label they are assigned to.
