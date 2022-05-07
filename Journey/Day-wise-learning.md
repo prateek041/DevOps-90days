@@ -60,3 +60,8 @@
 - Kubernetes:
   - Resource used: [Civo academy](https://www.civo.com/account/academy).
   - my notes: [notes](https://github.com/prateek041/DevOps-90days/tree/main/resources/Kubernetes/Day-1-Kubernetes-concepts(Civo)).
+
+### Day 13:
+- Kubernetes:
+  - Resource used: [Civo academy](https://www.civo.com/account/academy).
+  - my notes: [](https://github.com/prateek041/DevOps-90days/tree/main/resources/Kubernetes/Day-2-Kubernetes(Civo))
