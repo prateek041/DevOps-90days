@@ -57,5 +57,28 @@ What happens when you run `kubectl create -f "yaml file"`.
 2. Pre-stop-hook:
     - When you want some actions to be performed before the container gets terminated.
 
-### Init container:
+# 3. Init container:
 It will run before starting the main container.
+
+### use cases:
+- change file system before container starts.
+- delay start of main container.
+- limit attacks, and many more, you will learn things as you go!
+
+1. run `kubectl apply -f init1.yaml`, this will create a pod called init-demo1.
+
+      ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/creating-init1.png)
+      
+2. run `kubectl exec -it init-demo1 bash` to get inside the container. and run `cat /usr/share/nginx/html/index.html`.
+3. so, what happened ?
+  - the init container gets the html file of civo.com, puts in the "shared" volume mount.
+  - since, init and main container, share the same volume mount, using the "cat" we print the index.html file put there by the init container.
+4. run `kubectl apply -f init2.yaml` to create the pod init-demo2, but it wont be created.
+
+      ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/failed-init-2.png)
+5. why ?
+  - the init2.yaml contains two init containers, that will keep running, until the two services, appservice and dbservice are running and until init containers lifecycle ends, main container cant start.
+6. run `kubectl apply -f init2svc.yaml`, this will get the required service running and hence the pod init-demo2 will also start.
+
+      ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/init-demo2-svc-file.png)
+7. run `kubectl delete pod "podname"` to delete the pods.
