@@ -1,4 +1,4 @@
-# Pods:
+# 1. Pods:
 
 ### What are pods ?
 - smallest unit in kubernetes.
@@ -26,7 +26,7 @@
 9. to delete the pod, use: `kubectl delete pod "pod name"`
 10. to get inside a pod, use: `kubectl exec -it "pod name" bash`
 
-# Pods lifecycle:
+# 2. Pods lifecycle:
 
 What happens when you run `kubectl create -f "yaml file"`.
 
@@ -82,3 +82,29 @@ It will run before starting the main container.
 
       ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/init-demo2-svc-file.png)
 7. run `kubectl delete pod "podname"` to delete the pods.
+
+# 4. Multi-container pod:
+When a pod has more than one container, it is called multi-continer pod.
+
+### use cases:
+- sidecar, and many more uses, learn as you go !
+  - another container works as reverse proxy and host static file from the main container.
+
+![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/multicontainer.png)
+
+the alpine container writes the date and process into the volume, and the nginx container reads the file.
+
+1. run `kubectl apply -f multi-container.yaml`
+
+     ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/create-multicontainer.png)
+     
+2. run `kubectl exec -it multi-container bash`, to get inside the continer.
+3. run `cat /usr/share/nginx/html/index.html`, what you see ?
+     - the multi-container pod had two containers, nginx-container and alpine-container.
+     - the nginx creates an empty directory on the node, which is shared with the alpine-container.
+     - the alpine container keeps on writting the data and processes in the index.html file every 2 seconds.
+     - the nginx container also has the access to the same file, so we use `cat` to print its content.
+     - you see the date and processes that shows the resource usage. so the alpine container writes and the nginx container reads from the volume mount.
+4. exit out of the container and delete them.
+
+
