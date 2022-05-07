@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: init-demo2
+  labels:
+    app: myapp
+spec:
+  # this is the main container.
+  containers:
+  - name: app-container
+    image: busybox:1.28
+    command: ['sh', '-c', 'echo The app is running! && sleep 3600']
+  # these are the containers checking for 2 services, wether they are running or not, the appservice and dbservice
+  initContainers:
+  - name: init-myservice
+    image: busybox:1.28
+    command: ['sh', '-c', until nslookup appservice.$(cat /var/run/secrets/kubernetes.io/serviceaccount/namespace).svc.cluster.local; do echo waiting for appservice; sleep 2; done]
+  - name: init-mydb
+    image: busybox:1.28
+    command: ['sh', '-c', until nslookup dbservice.$(cat /var/run/secrets/kubernetes.io/serviceaccount/namespace).svc.cluster.local; do echo waiting for dbservice; sleep 2; done]

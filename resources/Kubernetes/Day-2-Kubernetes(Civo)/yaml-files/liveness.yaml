@@ -1,0 +1,24 @@
+# this should ideally fail
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimeStamp: null
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  containers:
+  - image: nginx
+    name: nginx
+    livenessProbe:
+      # tcpSocket:
+      #   port: 80
+      httpGet:
+        path: /
+        port: 80
+    ports:
+    - containerPort: 80
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

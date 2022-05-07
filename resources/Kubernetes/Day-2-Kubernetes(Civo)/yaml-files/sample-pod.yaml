@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: academy
+  name: sample-pod
+spec:
+  containers:
+  - image: nginx
+    name: sample-pod
+    ports:
+    - containerPort: 80
