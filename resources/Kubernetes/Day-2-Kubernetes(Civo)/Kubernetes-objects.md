@@ -11,7 +11,7 @@
 
 1. Install minikube using the video [Installing minikube on your local Kubernetes cluster - civo academy](https://www.youtube.com/watch?v=HxPqUf1_bIk&list=PLhc-GEHI0F7_wsxeSNqniQqSforzp92mV&index=12).
 2. Run command: `minikube start`, to start a local kubernetes cluster.
-3. On your desktop, create a file sample-pod.yaml and put the following [code](), into the file you created.
+3. On your desktop, create a file sample-pod.yaml and put the following [code](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/yaml-files/sample-pod.yaml), into the file you created.
 4. run : `kubectl create -f "file path"`, where file path is the path of "sample-code.yaml" file on your desktop.
 
       ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/create-pod.png)
@@ -65,6 +65,8 @@ It will run before starting the main container.
 - delay start of main container.
 - limit attacks, and many more, you will learn things as you go!
 
+YAML files needed [init1.yaml](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/yaml-files/init1.yaml), [init2.yaml](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/yaml-files/init2.yaml) and [init2.svc.yaml](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/yaml-files/init2svc.yaml)
+
 1. run `kubectl apply -f init1.yaml`, this will create a pod called init-demo1.
 
       ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/creating-init1.png)
@@ -93,6 +95,8 @@ When a pod has more than one container, it is called multi-continer pod.
 ![](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/assets/multicontainer.png)
 
 the alpine container writes the date and process into the volume, and the nginx container reads the file.
+
+YAML files needed for code along, [multi-container.yaml](https://github.com/prateek041/DevOps-90days/blob/main/resources/Kubernetes/Day-2-Kubernetes(Civo)/yaml-files/multi-container.yaml)
 
 1. run `kubectl apply -f multi-container.yaml`
 
