@@ -51,4 +51,7 @@ Since I will be switching between resources, I dont have a fully defined plan, I
 - 3 days per week (monday, wednesday and friday).
 - Kubernetes course for beginner by Kunal Kushwaha [Kubernetes for beginners by Kunal](https://www.youtube.com/watch?v=KVBON1lA9N8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=7).
 
+## CI/CD:
+- **GitHub actions**
+
 will update more because i have to manage college as well !
