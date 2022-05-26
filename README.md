@@ -46,6 +46,7 @@ Since I will be switching between resources, I dont have a fully defined plan, I
 ## Cloud (Azure):
 - 3 days per week (tuesday, thursday and saturday).
 - AZ-900 on freeCodeCamp youtube channel [AZ-900](https://www.youtube.com/watch?v=NKEFWyqJ5XA&list=WL&index=132&t=12s).
+- Video tutorial on AKS and other managed kubernetes clusters
 
 ## Kubernetes:
 - 3 days per week (monday, wednesday and friday).
@@ -53,5 +54,10 @@ Since I will be switching between resources, I dont have a fully defined plan, I
 
 ## CI/CD:
 - **GitHub actions**
+
+## Golang:
+- 3 days per week (tuesday, thursday and saturday).
+- [Golang tutorial for beginners by techworldWithNana](https://www.youtube.com/watch?v=yyUHQIec83I&t=6626s)
+
 
 will update more because i have to manage college as well !
