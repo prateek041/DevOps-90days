@@ -51,13 +51,28 @@ Since I will be switching between resources, I dont have a fully defined plan, I
 ## Kubernetes:
 - 3 days per week (monday, wednesday and friday).
 - Kubernetes course for beginner by Kunal Kushwaha [Kubernetes for beginners by Kunal](https://www.youtube.com/watch?v=KVBON1lA9N8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=7).
+- [Civo academy](https://www.civo.com/account/academy) resources for hand-on practice on topics like Kubernetes object, services, security etc.
+- Looking for more hands-on practice on YAML files and declaratice way of running Kubernetes.
 
 ## CI/CD:
 - **GitHub actions**
+  - Kunal kushwaha's github actions tutorial for understanding the docs and how it all fits. [Introduction to GitHub Actions CI/CD](https://www.youtube.com/watch?v=62N8UiWUdQo)
+  - Nana's Github actions tutorial for hands-on practice [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://www.youtube.com/watch?v=R8_veQiYBjI)
+- **ArgoCD**
+  - Kunal kushwaha's argo cd tutorial for getting familier with it. [Introduction to Argo CD & GitOps - With Datree, Lens & Civo Examples](https://www.youtube.com/watch?v=8YLsQIG2Svo&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=19)
+  - Still in progress.
+- **Jenkins**
+  - upcoming.
 
 ## Golang:
 - 3 days per week (tuesday, thursday and saturday).
-- [Golang tutorial for beginners by techworldWithNana](https://www.youtube.com/watch?v=yyUHQIec83I&t=6626s)
+- Nana's beginner tutorial to get familier with the language and its syntax [Golang tutorial for beginners by techworldWithNana](https://www.youtube.com/watch?v=yyUHQIec83I&t=6626s)
+- freeCodeCamp go project tutorial [Learn Go Programming by Building 11 Projects – Full Course
+](https://www.youtube.com/watch?v=jFfo23yIWac&t=15600s)
+- completed two projects.
+
+## Cloud native application development:
+- An amazing book by microsoft, for understanding how it all happens, highly recommeded! [eBook](https://github.com/prateek041/DevOps-90days/blob/main/resources/Cloud-native-application-dev/Architecting-Cloud-Native-NET-Apps-for-Azure.pdf)
 
 
 will update more because i have to manage college as well !
