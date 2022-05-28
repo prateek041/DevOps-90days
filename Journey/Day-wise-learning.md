@@ -65,3 +65,24 @@
 - Kubernetes:
   - Resource used: [Civo academy](https://www.civo.com/account/academy).
   - my notes: [](https://github.com/prateek041/DevOps-90days/tree/main/resources/Kubernetes/Day-2-Kubernetes(Civo))
+  - putting a hault, finding more detailed resources for topics like Services, security and networking.
+
+### Day 14:
+- Github actions (CI-CD):
+  - Resource used: [Introduction to GitHub Actions CI/CD](https://www.youtube.com/watch?v=62N8UiWUdQo)
+
+### Day 15:
+- Github actions (CI-CD):
+  - Resource used: [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://www.youtube.com/watch?v=R8_veQiYBjI)
+  - My repo: [CI-CD-using-githubActions](https://github.com/prateek041/CI-CD-using-githubActions)
+
+### Day 16:
+- Go projects:
+  - Resource used: [Golang tutorial for beginners by techworldWithNana](https://www.youtube.com/watch?v=yyUHQIec83I&t=6626s)
+  - my repo: [Golang-techworldWithNana](https://github.com/prateek041/Golang-techworldWithNana)
+
+### Day 17:
+Go projects:
+  - Resource used: [Learn Go Programming by Building 11 Projects – Full Course](https://www.youtube.com/watch?v=jFfo23yIWac&t=15600s)
+
+Happy learning ! to you and me :D
