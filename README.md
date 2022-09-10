@@ -60,7 +60,8 @@ Since I will be switching between resources, I dont have a fully defined plan, I
   - Nana's Github actions tutorial for hands-on practice [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://www.youtube.com/watch?v=R8_veQiYBjI)
 - **ArgoCD**
   - Kunal kushwaha's argo cd tutorial for getting familier with it. [Introduction to Argo CD & GitOps - With Datree, Lens & Civo Examples](https://www.youtube.com/watch?v=8YLsQIG2Svo&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=19)
-  - Still in progress.
+  - Do a complete hands on using the git repo [GitOps with ArgoCD](https://github.com/prateek041/argo-test).
+  - [GitOps with ArgoCD certification](https://learning.codefresh.io/).
 - **Jenkins**
   - upcoming.
 
