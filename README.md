@@ -70,7 +70,7 @@ Since I will be switching between resources, I dont have a fully defined plan, I
 - Nana's beginner tutorial to get familier with the language and its syntax [Golang tutorial for beginners by techworldWithNana](https://www.youtube.com/watch?v=yyUHQIec83I&t=6626s)
 - freeCodeCamp go project tutorial [Learn Go Programming by Building 11 Projects – Full Course
 ](https://www.youtube.com/watch?v=jFfo23yIWac&t=15600s)
-- completed two projects.
+- completed three projects.
 
 ## Cloud native application development:
 - An amazing book by microsoft, for understanding how it all happens, highly recommeded! [eBook](https://github.com/prateek041/DevOps-90days/blob/main/resources/Cloud-native-application-dev/Architecting-Cloud-Native-NET-Apps-for-Azure.pdf)
