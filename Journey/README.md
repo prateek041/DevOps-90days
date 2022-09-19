@@ -84,5 +84,12 @@
 ### Day 17:
 Go projects:
   - Resource used: [Learn Go Programming by Building 11 Projects – Full Course](https://www.youtube.com/watch?v=jFfo23yIWac&t=15600s)
+  
+### Day 18:
+Go projects:
+  - Had taken almost a month long break, but not wasted ;D
+  - Built a basic web server using net/http package.
+  - Resource used: [Learn Go Programming by Building 11 Projects – Full Course](https://www.youtube.com/watch?v=jFfo23yIWac&t=15600s)
+  - My repo with project + comments: [Golang-projects](https://github.com/prateek041/DevOps-90days/tree/main/resources/Golang).
 
 Happy learning ! to you and me :D
