@@ -14,15 +14,15 @@ import (
 )
 
 type Movie struct {
-	ID       string    `json: "id"` // these json annotations indicate the encoder how json output should be named.
-	Isbn     string    `json: "isbn"`
-	Title    string    `json: "title`
-	Director *Director `json: "director` // pointer that points to a Director type struct.
+	ID       string    `json:"id"` // these json annotations indicate the encoder how json output should be named.
+	Isbn     string    `json:"isbn"`
+	Title    string    `json:"title"`
+	Director *Director `json:"director"` // pointer that points to a Director type struct.
 }
 
 type Director struct {
-	Firstname string `json: "firstname`
-	Lastname  string `json: "lastname`
+	Firstname string `json:"firstname"`
+	Lastname  string `json:"lastname"`
 }
 
 var movies []Movie
@@ -99,7 +99,7 @@ func getMovie(w http.ResponseWriter, r *http.Request) {
 func createMovie(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("content-type", "application/json")
 	var movie Movie
-	_ = json.NewDecoder(r.Body).Decode(&movie) // newDecoder returns a a new decoder that reads from r. Decode reads the JSON encoded value and stores it in the value *pointed by movie.
+	_ = json.NewDecoder(r.Body).Decode(&movie) // newDecoder returns a a new decoder that reads from r. Decode reads the JSON encoded value from the input (r.Body) and stores it in the value *pointed by movie.
 
 	movie.ID = strconv.Itoa(rand.Intn(100000000))
 	movies = append(movies, movie)
@@ -121,7 +121,19 @@ func deleteMovie(w http.ResponseWriter, r *http.Request) {
 
 // update a movie
 func updateMovie(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Movie updated")
+	w.Header().Set("content-type", "application-json")
+	params := mux.Vars(r)
+	for index, value := range movies {
+		if value.ID == params["id"] {
+			movies = append(movies[:index], movies[index+1:]...) // deleted the movie.
+			var movie Movie                                      // created a new movie struct of type Movie.
+			_ = json.NewDecoder(r.Body).Decode(&movie)           // saved the values passed in the requeest body into the
+			movie.ID = value.ID                                  // create a new movie of same id as passed in the request.
+			movies = append(movies, movie)                       // append in the movies array
+			json.NewEncoder(w).Encode(movie)                     // send back the response.
+			return
+		}
+	}
 }
 
 // The JSON encoder in the standard library makes use of struct tags as annotations indicating to the encoder how you would like to name your fields in the JSON output.
